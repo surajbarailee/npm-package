@@ -1,4 +1,19 @@
 {
+  "name": "@suraj_barailee/typescript",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https:https://github.com/surajbarailee/npm-package"
+  },
+  "description": "Basic TYpescript project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "Suraj Barailee",
   "devDependencies": {
     "typescript": "^4.7.4"
   }
